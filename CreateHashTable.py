@@ -1,4 +1,4 @@
-# Hash Map method
+# Hash Map cited from ZyBooks: https://learn.zybooks.com/zybook/WGUC950AY20182019/chapter/7/section/8
 
 class CreateHashMap:
     def __init__(self, initial_capacity=20):
