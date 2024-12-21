@@ -80,7 +80,7 @@ def deliverPack(truck):
     for packageID in truck.packages:
         package = PKGHASH.lookup(packageID)
         not_delivered.append(package)
-        truck.packages.clear()
+    truck.packages.clear()
         
 
 # Implementation of Nearest Neighbor algorithm. finds the nearest undelivered package
